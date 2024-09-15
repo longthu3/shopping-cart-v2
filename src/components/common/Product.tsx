@@ -62,7 +62,6 @@ export const Product = ({ product }: ProductProps) => {
       addToCartAction({
         ...product,
         quantityCart: 1,
-        quantity: product.quantity - 1,
       })
     );
 
